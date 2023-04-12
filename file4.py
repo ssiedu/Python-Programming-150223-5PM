@@ -1,0 +1,6 @@
+file=open("Student","w")
+name=input("Enter name of Student:")
+rno = int(input("Enter Roll No :"))
+per = eval(input("Enter percentage :"))
+file.write(name+ " " + str(rno) + " " + str(per))
+file.close()
